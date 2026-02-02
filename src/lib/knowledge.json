@@ -1,0 +1,62 @@
+{
+  "name": "Lalith Kothuru",
+  "location": "Chicago",
+  "education": "MS/BS in CS",
+  "focus": ["Machine Learning", "Backend", "Robotics", "ML Ops"],
+  "hobbies": ["Bike rides","Gaming", "Reading", "Reseaching new topics"],
+  "projects": [
+    {
+      "title": "GlotFiles",
+      "description": "This is the only online polyglot file generator, you can upload multiple files and it will be converted to a polyglot file.",
+      "image": "/glotfiles.png?height=400&width=600",
+      "technologies": ["Bit Manipulation", "Hex dumping", "Reversing"],
+      "github": "https://github.com/LALITH0110",
+      "demo": "https://www.glotfiles.dev/"
+    },
+    {
+      "title": "CollabEdge",
+      "description": "A Real-Time Collaborative Platform to collaborate on code, documents, spreadsheets, presentations, and more with your team.",
+      "image": "/collabedge.png?height=400&width=600",
+      "technologies": ["Springboot", "Digital Ocean", "Web Sockets", "OAuth2"],
+      "github": "https://github.com/LALITH0110",
+      "demo": "https://www.collabedge.pro/"
+    },
+    {
+      "title": "Web Penetration Testing Tool",
+      "description": "A web application to perform penetration testing on websites, providing actionable solutions for detected vulnerabilities.",
+      "image": "/pentest.webp?height=400&width=600",
+      "technologies": ["React", "Node.js", "Flask", "nmap"],
+      "github": "https://github.com/LALITH0110/PenetrationTesting",
+      "demo": "https://courageous-salmiakki-0197f8.netlify.app/#"
+    },
+    {
+      "title": "Amazon Lex Bot",
+      "description": "A custom chatbot for automated conversational interactions using AWS (Amazon Bedrock).",
+      "image": "/lex.webp?height=400&width=600",
+      "technologies": ["AWS", "Amazon Bedrock", "AWS lambda"],
+      "github": "https://github.com/LALITH0110",
+      "demo": null
+    },
+    {
+      "title": "Chicago Water Lead Levels Analysis",
+      "description": "Data analysis and visualization of lead contamination levels in Chicago's water supply, highlighting affected areas and suggesting solutions.",
+      "image": "/lead.webp?height=400&width=600",
+      "technologies": ["Python", "Pandas", "Data Visualization", "GIS"],
+      "github": "https://github.com/LALITH0110/Reveal82",
+      "demo": "https://reveal82website-sepia.vercel.app/"
+    },
+    {
+      "title": "Custom Shell CLI",
+      "description": "A shell/command-line interface built from scratch in C, incorporating essential terminal functionalities (tsh).",
+      "image": "/cli.webp?height=400&width=600",
+      "technologies": ["C", "Systems Programming", "CLI"],
+      "github": "https://github.com/LALITH0110/CommandShell",
+      "demo": null
+    }
+  ],
+  "contact": {
+    "github": "https://github.com/LALITH0110",
+    "linkedin": "https://www.linkedin.com/in/lalith-kothuru/",
+    "email": "lalith.kothuru@gmail.com"
+  }
+}
