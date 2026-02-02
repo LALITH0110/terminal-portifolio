@@ -426,10 +426,6 @@ const COMMANDS = {
           light/dark themes
         </div>
         <div>
-          <span className="terminal-warning">matrix</span> - Matrix effect
-          (easter egg)
-        </div>
-        <div>
           <span className="terminal-warning">fortune</span> - Get a random
           programming quote
         </div>
@@ -533,23 +529,7 @@ const COMMANDS = {
     );
   },
 
-  matrix: () => (
-    <div className="terminal-output">
-      <div className="matrix-effect text-green-500 font-mono text-xs">
-        {Array.from({ length: 20 }, (_, i) => (
-          <div
-            key={i}
-            className="matrix-line"
-            style={{ "--i": i } as React.CSSProperties & { "--i": number }}
-          >
-            {Array.from({ length: 50 }, () =>
-              String.fromCharCode(Math.random() * 94 + 33)
-            ).join("")}
-          </div>
-        ))}
-      </div>
-    </div>
-  ),
+  // matrix command intentionally left out of COMMANDS
 
   fortune: () => (
     <div className="terminal-output">
